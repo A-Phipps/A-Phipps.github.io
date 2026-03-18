@@ -10,15 +10,14 @@ name: "Aubrey Phipps"
 tagline: "Aspiring Data Scientist"
 
 about: |
-  I'm currently a Junior attending Michigan State University with a major in Data Science and a minor in Business. 
+  I'm currently a Junior attending Michigan State University with a major in Data Science and a minor in Business.
+   
+  My projects focus on analyzing data to build predictive models and to manipluate data to make it interpretable.
+  I have experience working with real-world datasets, applying statistical methods, and using tools such as R, SQL, Python, Github, Glowscript, Arduino, and Docker.
 
-  My projects focus 
-
-  _This example portfolio was inspired by Zeke IV, who passed in March of 2026.
-  He played the role of Zeke the Wonder Dog for a decade._
+  
 
 # Contact information — remove any fields you prefer not to share
 email: "phippsa1@msu.edu"
 linkedin: "www.linkedin.com/in/aubrey-phipps-921bb2282"
-github: 
-"
+github: https://github.com/A-Phipps/A-Phipps.github.io.git"
