@@ -14,7 +14,7 @@ student_file: content/my_profile.yaml
 # List the YAML files (inside content/projects/) you want shown.
 # Remove example projects and add your own once you're ready.
 projects:
-  - content/projects/aws_nyc311_infrastructur.yaml
+  - content/projects/aws_nyc311_infrastructure.yaml
   - content/projects/professionalizing_ds.yaml
   - content/projects/sakila_sql_analysis.yaml
 
