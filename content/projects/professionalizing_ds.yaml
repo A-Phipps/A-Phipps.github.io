@@ -16,5 +16,4 @@ approach: "I organized the files into a clear folder system and used a tool call
 results_impact: "The project is now more reliable. Instead of spending hours trying to get the code to run, a new user can get everything started with just one simple command."
 
 repo_url: "https://github.com/A-Phipps/cmse492-hw01-phippsa1"
-#notebook_url: ""
 image_path: "img/revenue_by_region.png"
