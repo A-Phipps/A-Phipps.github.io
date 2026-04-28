@@ -1,20 +1,20 @@
-title: "Professionalizing Data Science: Reproducible Workflows"
+title: "Making Data Science Easy to Share"
 
-short_summary: "Transformed a legacy data science project into a professional, reproducible repository. Implemented automated environment management and containerization to ensure the analysis can be recreated by any researcher in under 30 minutes."
+short_summary: "I took a messy project and turned it into a professional toolkit. Now, anyone can run my analysis without worrying about setup errors."
 
 tech_stack:
   - Python
   - Docker
   - uv (Package Manager)
-  - Git/GitHub
+  - GitHub
   - Shell Scripting
 
-problem_statement: "Many data science projects suffer from 'it works on my machine' syndrome, where missing dependencies and messy folder structures make reproduction impossible for others. This project aimed to solve those barriers by applying industry-standard engineering practices to a research codebase."
+problem_statement: "Most data science code only works on the person's computer who wrote it. This makes it impossible for others to verify the results or build on the work."
 
-approach: "I refactored the project using a standardized directory structure (data/, notebooks/, src/). I replaced manual dependency tracking with a 'uv' lockfile for exact environment replication. Finally, I authored a Dockerfile to containerize the entire workflow, allowing the code to run in a consistent Linux environment regardless of the host operating system."
+approach: "I organized the files into a clear folder system and used a tool called Docker to package everything together. This means the code brings its own environment with it so it works the same way for everyone."
 
-results_impact: "The final repository achieved 100% reproducibility across different local and cloud environments. The setup time for new contributors was reduced from hours of troubleshooting to a single 'docker build' command. This ensures the long-term viability and transparency of the data analysis."
+results_impact: "The project is now more reliable. Instead of spending hours trying to get the code to run, a new user can get everything started with just one simple command."
 
 repo_url: "https://github.com/A-Phipps/cmse492-hw01-phippsa1"
-notebook_url: ""
+#notebook_url: ""
 image_path: "img/revenue_by_region.png"
