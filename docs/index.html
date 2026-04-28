@@ -51,17 +51,17 @@ I have experience working with real-world datasets, applying statistical methods
       <!-- Project thumbnail image -->
       <div class="project-image-wrapper">
         <img
-          src="static/img/aws_infrastructure.png"
-          alt="Thumbnail for Cloud Infrastructure: NYC 311 Pipeline"
+          src=""
+          alt="Thumbnail for NYC 311 Cloud Data Pipeline"
           class="project-image"
         />
       </div>
 
       <div class="project-body">
-        <h3 class="project-title">Cloud Infrastructure: NYC 311 Pipeline</h3>
+        <h3 class="project-title">NYC 311 Cloud Data Pipeline</h3>
 
         <!-- Short summary written for a non-expert audience -->
-        <p class="project-summary">Developed a scalable data pipeline using AWS services. Configured S3 for data storage,  setup Athena for serverless SQL queries, and used SageMaker for data exploration.
+        <p class="project-summary">Built a cloud-based data pipeline to store and query 200,000 NYC service requests using AWS. Uploaded raw CSV data to S3, queried it with SQL through Athena, and loaded results into SageMaker to prepare for predictive modeling.
 </p>
 
         <!-- Tech stack as pill badges -->
@@ -75,7 +75,7 @@ I have experience working with real-world datasets, applying statistical methods
           
           <span class="tech-badge">SQL</span>
           
-          <span class="tech-badge">Python (Pandas)</span>
+          <span class="tech-badge">Python (Pandas, boto3)</span>
           
         </div>
 
@@ -85,19 +85,19 @@ I have experience working with real-world datasets, applying statistical methods
 
           <div class="detail-block">
             <h4>Problem</h4>
-            <p>Large-scale urban datasets like the NYC 311 service requests are too large for traditional  local processing. The goal was to build a cloud-native infrastructure that allows for  efficient storage, rapid querying, and machine learning readiness without taxing local hardware.
+            <p>A dataset of 200,000 NYC 311 complaints is too large to work with comfortably on a laptop. The goal was to store the data in the cloud, query it efficiently without downloading it, and set up an environment ready for machine learning.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>I established a &#39;Bronze/Silver&#39; data lake pattern in S3, using specific prefixes to organize  raw and cleaned data. I then mapped this data to AWS Athena to perform serverless SQL  analysis. Finally, I connected a SageMaker Jupyter instance to the Athena lifecycle to  prepare the data for predictive modeling.
+            <p>I created an S3 bucket to store the raw complaints and agency CSV files in an organized folder structure. I then used AWS Athena to run SQL queries directly against the S3 data — no database server required. Finally, I launched a SageMaker notebook instance, cloned my project repo into it, and loaded the query results into pandas for exploration and modeling prep.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Results &amp; Impact</h4>
-            <p>The resulting infrastructure allows for querying millions of rows in seconds using SQL.  The project is fully documented in a public AWS Cloud Computing repository, meeting  all requirements for professional cloud data engineering standards.
+            <p>Successfully queried 200,000 rows of complaint data in seconds using SQL without any local processing. Identified patterns in complaint volume by agency and borough, and built a modeling-ready dataset exported back to S3. Documented the full workflow in a public GitHub repository.
 </p>
           </div>
         </details>
