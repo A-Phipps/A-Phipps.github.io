@@ -25,4 +25,4 @@ results_impact: >
   borough, and built a modeling-ready dataset exported back to S3. Documented the
   full workflow in a public GitHub repository.
 repo_url: "https://github.com/aws-nyc311-phippsa1"
-image_path: "static/img/confusion_matrix.png"
+image_path: "img/confusion_matrix.png"

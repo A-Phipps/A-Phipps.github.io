@@ -1,0 +1,35 @@
+/* data-scientist-purple.css */
+:root {
+  /* Deep Space Background */
+  --bg-color: #0f0c13; 
+  /* Card Background (Slightly lighter than BG) */
+  --card-bg: #1a1625;
+  
+  /* The Purple Accents */
+  --primary-purple: #9d50bb; /* Vibrant Purple */
+  --secondary-purple: #6e48aa; /* Deep Violet */
+  --text-main: #e0e0e0;
+  --text-muted: #a0a0a0;
+  
+  /* Borders and Buttons */
+  --border-color: #2d263d;
+  --accent-glow: rgba(157, 80, 187, 0.3);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, var(--primary-purple), var(--secondary-purple));
+  border: none;
+  box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+
+.project-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: var(--primary-purple);
+  transform: translateY(-5px);
+}

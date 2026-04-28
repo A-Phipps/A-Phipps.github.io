@@ -17,4 +17,4 @@ results_impact: "The final repository achieved 100% reproducibility across diffe
 
 repo_url: "https://github.com/A-Phipps/cmse492-hw01-phippsa1"
 notebook_url: ""
-image_path: "static/img/revenue_by_region.png"
+image_path: "img/revenue_by_region.png"
