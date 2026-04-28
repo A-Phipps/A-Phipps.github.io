@@ -51,6 +51,75 @@ I have experience working with real-world datasets, applying statistical methods
       <!-- Project thumbnail image -->
       <div class="project-image-wrapper">
         <img
+          src="static/img/aws_infrastructure.png"
+          alt="Thumbnail for Cloud Infrastructure: NYC 311 Pipeline"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Cloud Infrastructure: NYC 311 Pipeline</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Developed a scalable data pipeline using AWS services. Configured S3 for data storage,  setup Athena for serverless SQL queries, and used SageMaker for data exploration.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">AWS Athena</span>
+          
+          <span class="tech-badge">AWS SageMaker</span>
+          
+          <span class="tech-badge">SQL</span>
+          
+          <span class="tech-badge">Python (Pandas)</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Large-scale urban datasets like the NYC 311 service requests are too large for traditional  local processing. The goal was to build a cloud-native infrastructure that allows for  efficient storage, rapid querying, and machine learning readiness without taxing local hardware.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I established a &#39;Bronze/Silver&#39; data lake pattern in S3, using specific prefixes to organize  raw and cleaned data. I then mapped this data to AWS Athena to perform serverless SQL  analysis. Finally, I connected a SageMaker Jupyter instance to the Athena lifecycle to  prepare the data for predictive modeling.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The resulting infrastructure allows for querying millions of rows in seconds using SQL.  The project is fully documented in a public AWS Cloud Computing repository, meeting  all requirements for professional cloud data engineering standards.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/A-Phipps/aws-nyc311" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
           src=""
           alt="Thumbnail for Professionalizing Data Science: Reproducible Workflows"
           class="project-image"
