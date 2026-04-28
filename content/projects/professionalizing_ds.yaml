@@ -15,6 +15,6 @@ approach: "I refactored the project using a standardized directory structure (da
 
 results_impact: "The final repository achieved 100% reproducibility across different local and cloud environments. The setup time for new contributors was reduced from hours of troubleshooting to a single 'docker build' command. This ensures the long-term viability and transparency of the data analysis."
 
-repo_url: "https://github.com/A-Phipps/cmse492-hw01"
+repo_url: "https://github.com/A-Phipps/cmse492-hw01-phippsa1"
 notebook_url: ""
-image_path: ""
+image_path: "static/img/revenue_by_region.png"

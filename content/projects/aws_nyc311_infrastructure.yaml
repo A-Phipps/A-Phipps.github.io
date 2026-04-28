@@ -24,5 +24,5 @@ results_impact: >
   any local processing. Identified patterns in complaint volume by agency and
   borough, and built a modeling-ready dataset exported back to S3. Documented the
   full workflow in a public GitHub repository.
-repo_url: "https://github.com/A-Phipps/aws-nyc311"
-image_path: ""
+repo_url: "https://github.com/aws-nyc311-phippsa1"
+image_path: "static/img/confusion_matrix.png"

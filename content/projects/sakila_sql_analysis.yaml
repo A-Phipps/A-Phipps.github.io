@@ -22,15 +22,14 @@ approach: >
   I used a Dockerized MySQL instance to query the Sakila dataset. My analysis involved 
   joining multiple tables (category, film, rental, and payment) to calculate 
   running totals and rank genres. I utilized Common Table Expressions (CTEs) to 
-  organize complex logic and Window Functions to determine percentile rankings 
-  for customer lifetime value.
+  organize my queries. 
 
 results_impact: >
   The analysis successfully identified the 'Sports' and 'Sci-Fi' genres as the 
   highest revenue generators. I delivered a final report that visualized these 
-  trends, providing a clear roadmap for future inventory procurement and 
-  targeted marketing campaigns for high-value customers.
+  trends, providing an idea for future inventory management and 
+  specific marketing strategies for high-value customers.
 
-repo_url: ""
-notebook_url: "" # Link to your specific HW02 notebook if you want
-image_path: "static/img/sql_analysis.png"
+repo_url: "https://github.com/A-Phipps/cmse492-hw02-phippsa1"
+notebook_url: "" 
+image_path: "static/img/SQL_image.png"
